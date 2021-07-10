@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/random_icn"
+        android:enabled="true"
+        android:icon="@drawable/ic_random"
+        android:title="Random" />
+    <item
+        android:id="@+id/search_icn"
+        android:enabled="true"
+        android:icon="@drawable/ic_search"
+        android:title="Search" />
+    <item
+        android:id="@+id/saved_icn"
+        android:enabled="true"
+        android:icon="@drawable/ic_saved"
+        android:title="Saved" />
+
+
+</menu>
