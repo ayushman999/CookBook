@@ -6,6 +6,7 @@ import android.os.Bundle;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
+import android.text.method.LinkMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -137,6 +138,7 @@ public class RandomFragment extends Fragment {
         amt_list.setText(recipe.getAmtList());
         desc.setText(recipe.getDescription());
         src_link.setText(recipe.getSrcLink());
+
 
     }
 }
